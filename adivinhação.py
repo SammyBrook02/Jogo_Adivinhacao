@@ -1,7 +1,7 @@
 import random
 
 def jogo_adivinhacao():
-    print("Bem-vindo ao jogo de adivinhação!")
+    print("Bem-vindo ao jogo de adivinhação de Samuel")
     print("Estou pensando em um número entre 1 e 150.")
 
     numero_secreto = random.randint(1, 150)
@@ -31,3 +31,4 @@ def jogo_adivinhacao():
             break
 if __name__ == "__main__":
     jogo_adivinhacao()
+
