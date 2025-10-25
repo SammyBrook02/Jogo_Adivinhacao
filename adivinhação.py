@@ -2,7 +2,7 @@ import random
 
 def jogo_adivinhacao():
     print("Bem-vindo ao jogo de adivinhação de Samuel")
-    numero_secreto = random.radiant(1,200)
+    numero_secreto = random.randint(1,200)
     tentativas = 0
     acertou = False
    
@@ -26,5 +26,6 @@ jogo_adivinhacao()
 
 
         
+
 
 
